@@ -1,0 +1,25 @@
+* {
+    font-family: 'Raleway', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+navbar {
+    font-size: 20px;
+    position: fixed;
+    display: flex;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    z-index: 10;
+}
+
+navbar #logo {
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2em;
+}
